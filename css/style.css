@@ -112,12 +112,15 @@ button {
 }
 
 .nav-logo {
-  font-family: var(--font-serif);
-  font-weight: 300;
-  font-size: 1.1rem;
-  letter-spacing: 0.35em;
-  text-transform: uppercase;
-  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo img {
+  height: 2.5rem;
+  width: auto;
+  display: block;
+  object-fit: contain;
 }
 
 .nav-links {
@@ -658,12 +661,15 @@ button {
 }
 
 .footer-brand {
-  font-family: var(--font-serif);
-  font-weight: 300;
-  font-size: 1rem;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  color: var(--white);
+  display: flex;
+  align-items: center;
+}
+
+.footer-brand img {
+  height: 1.75rem;
+  width: auto;
+  display: block;
+  object-fit: contain;
 }
 
 .footer-nav {
