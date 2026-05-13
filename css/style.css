@@ -112,15 +112,12 @@ button {
 }
 
 .nav-logo {
-  display: flex;
-  align-items: center;
-}
-
-.nav-logo img {
-  height: 2.5rem;
-  width: auto;
-  display: block;
-  object-fit: contain;
+  font-family: var(--font-serif);
+  font-weight: 300;
+  font-size: 1.1rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: inherit;
 }
 
 .nav-links {
@@ -180,9 +177,8 @@ button {
 }
 
 .hero-logo-overlay img {
-  width: 60%;
-  max-width: 320px;
-  height: auto;
+  height: 25rem;
+  width: auto;
   object-fit: contain;
 }
 
