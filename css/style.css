@@ -750,6 +750,10 @@ button {
     align-items: center;
   }
 
+  .hero-cta {
+    align-self: auto;
+  }
+
   .hero-body {
     max-width: 100%;
   }
