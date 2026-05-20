@@ -746,6 +746,8 @@ button {
 
   .hero-text {
     padding: 3rem 1.5rem;
+    text-align: center;
+    align-items: center;
   }
 
   .hero-body {
