@@ -744,6 +744,11 @@ button {
     height: 60vh;
   }
 
+  .hero-logo-overlay img {
+    width: 60%;
+    height: auto;
+  }
+
   .hero-text {
     padding: 3rem 1.5rem;
     text-align: center;
