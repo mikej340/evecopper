@@ -405,6 +405,44 @@ button {
   color: var(--grey-2);
 }
 
+.shop-enquiry {
+  max-width: 520px;
+  margin: 2rem auto 0;
+}
+
+.shop-enquiry-text {
+  font-family: var(--font-sans);
+  font-weight: 300;
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: var(--grey-2);
+  margin-bottom: 1rem;
+}
+
+.shop-enquiry-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.9rem 1.5rem;
+}
+
+.shop-enquiry-link {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-weight: 400;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--black);
+  border-bottom: 1px solid var(--grey-3);
+  padding-bottom: 0.25rem;
+  transition: border-color 0.2s ease;
+}
+
+.shop-enquiry-link:hover {
+  border-color: var(--black);
+}
+
 .products-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -686,6 +724,13 @@ button {
   margin-bottom: 1.5rem;
 }
 
+.social-cta-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem 1.75rem;
+}
+
 .social-cta-link {
   display: inline-block;
   font-family: var(--font-sans);
@@ -709,21 +754,22 @@ button {
    ======================== */
 .site-footer {
   background: var(--black);
-  color: var(--grey-2);
+  color: var(--white);
 }
 
 .footer-inner {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2.5rem 2rem;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
 }
 
 .footer-brand {
   display: flex;
   align-items: center;
+  justify-self: start;
 }
 
 .footer-brand img {
@@ -736,21 +782,28 @@ button {
 .footer-nav {
   display: flex;
   gap: 2rem;
+  justify-self: center;
+}
+
+.footer-social {
+  display: flex;
+  gap: 1.5rem;
+  justify-self: end;
 }
 
 .footer-nav a,
-.footer-instagram {
+.footer-social a {
   font-family: var(--font-sans);
   font-weight: 300;
   font-size: 0.65rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--grey-2);
+  color: var(--white);
   transition: color 0.2s ease;
 }
 
 .footer-nav a:hover,
-.footer-instagram:hover {
+.footer-social a:hover {
   color: var(--white);
 }
 
@@ -762,7 +815,7 @@ button {
   font-weight: 300;
   font-size: 0.6rem;
   letter-spacing: 0.1em;
-  color: #444;
+  color: var(--white);
 }
 
 /* ========================
@@ -849,6 +902,7 @@ button {
 
   /* Footer */
   .footer-inner {
+    display: flex;
     flex-direction: column;
     gap: 1.5rem;
     text-align: center;
@@ -856,6 +910,12 @@ button {
 
   .footer-nav {
     gap: 1.5rem;
+  }
+
+  .footer-social {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem 1.5rem;
   }
 }
 
