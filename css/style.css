@@ -156,6 +156,7 @@ button {
 }
 
 .hero-portrait {
+  position: relative;
   overflow: hidden;
   background: var(--white);
 }
@@ -166,6 +167,53 @@ button {
   object-fit: cover;
   object-position: center top;
   display: block;
+}
+
+.hero-portrait--slideshow {
+  background: var(--grey-4);
+}
+
+.hero-portrait--slideshow .hero-portrait-slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  animation: heroPortraitFade 54s ease-in-out infinite;
+}
+
+.hero-portrait--slideshow .hero-portrait-slide:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.hero-portrait--slideshow .hero-portrait-slide:nth-child(2) {
+  animation-delay: -48s;
+}
+
+.hero-portrait--slideshow .hero-portrait-slide:nth-child(3) {
+  animation-delay: -42s;
+}
+
+.hero-portrait--slideshow .hero-portrait-slide:nth-child(4) {
+  animation-delay: -36s;
+}
+
+.hero-portrait--slideshow .hero-portrait-slide:nth-child(5) {
+  animation-delay: -30s;
+}
+
+.hero-portrait--slideshow .hero-portrait-slide:nth-child(6) {
+  animation-delay: -24s;
+}
+
+.hero-portrait--slideshow .hero-portrait-slide:nth-child(7) {
+  animation-delay: -18s;
+}
+
+.hero-portrait--slideshow .hero-portrait-slide:nth-child(8) {
+  animation-delay: -12s;
+}
+
+.hero-portrait--slideshow .hero-portrait-slide:nth-child(9) {
+  animation-delay: -6s;
 }
 
 .hero-image {
@@ -252,6 +300,32 @@ button {
 .hero-cta:hover {
   border-color: var(--black);
   gap: 0.75rem;
+}
+
+@keyframes heroPortraitFade {
+  0%,
+  7% {
+    opacity: 1;
+  }
+
+  11%,
+  96% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-portrait--slideshow .hero-portrait-slide {
+    animation: none;
+  }
+
+  .hero-portrait--slideshow .hero-portrait-slide:first-child {
+    opacity: 1;
+  }
 }
 
 /* ========================
@@ -727,6 +801,17 @@ button {
   .hero-portrait {
     height: 70vw;
     max-height: 480px;
+  }
+
+  .hero-portrait--slideshow {
+    aspect-ratio: 2 / 3;
+    height: auto;
+    max-height: none;
+  }
+
+  .hero-portrait--slideshow .hero-portrait-slide {
+    object-fit: cover;
+    object-position: center;
   }
 
   /* Home preview */

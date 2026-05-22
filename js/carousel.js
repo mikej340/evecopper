@@ -32,7 +32,7 @@ const shopCatalog = [
   {
     name: 'Cleo',
     images: [
-      'images/cat/cleo/IMG_6303.JPG',
+      'images/cat/cleo/IMG_6303.jpeg',
       'images/cat/cleo/IMG_6311.JPG',
       'images/cat/cleo/IMG_6315.JPG',
       'images/cat/cleo/IMG_6322.JPG',
