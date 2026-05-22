@@ -33,14 +33,14 @@ const shopCatalog = [
     name: 'Cleo',
     images: [
       'images/cat/cleo/IMG_6303.jpeg',
-      'images/cat/cleo/IMG_6311.JPG',
-      'images/cat/cleo/IMG_6315.JPG',
-      'images/cat/cleo/IMG_6322.JPG',
-      'images/cat/cleo/IMG_6324.JPG',
-      'images/cat/cleo/IMG_6328.JPG',
-      'images/cat/cleo/IMG_6333.JPG',
-      'images/cat/cleo/IMG_6346.JPG',
-      'images/cat/cleo/IMG_6352.JPG'
+      'images/cat/cleo/IMG_6311.jpeg',
+      'images/cat/cleo/IMG_6315.jpeg',
+      'images/cat/cleo/IMG_6322.jpeg',
+      'images/cat/cleo/IMG_6324.jpeg',
+      'images/cat/cleo/IMG_6328.jpeg',
+      'images/cat/cleo/IMG_6333.jpeg',
+      'images/cat/cleo/IMG_6346.jpeg',
+      'images/cat/cleo/IMG_6352.jpeg'
     ]
   },
   {
@@ -56,23 +56,23 @@ const shopCatalog = [
   {
     name: 'Trinity',
     images: [
-      'images/cat/trinity/IMG_6137.JPG',
-      'images/cat/trinity/IMG_6155.JPG',
-      'images/cat/trinity/IMG_6166.JPG',
-      'images/cat/trinity/IMG_6171.JPG',
-      'images/cat/trinity/IMG_6202.JPG'
+      'images/cat/trinity/IMG_6137.jpeg',
+      'images/cat/trinity/IMG_6155.jpeg',
+      'images/cat/trinity/IMG_6166.jpeg',
+      'images/cat/trinity/IMG_6171.jpeg',
+      'images/cat/trinity/IMG_6202.jpeg'
     ]
   },
   {
     name: 'Maya',
     images: [
-      'images/cat/maya/IMG_6260.JPG',
-      'images/cat/maya/IMG_6273.JPG',
-      'images/cat/maya/IMG_6275.JPG',
-      'images/cat/maya/IMG_6279.JPG',
-      'images/cat/maya/IMG_6283.JPG',
-      'images/cat/maya/IMG_6288.JPG',
-      'images/cat/maya/IMG_6291.JPG'
+      'images/cat/maya/IMG_6260.jpeg',
+      'images/cat/maya/IMG_6273.jpeg',
+      'images/cat/maya/IMG_6275.jpeg',
+      'images/cat/maya/IMG_6279.jpeg',
+      'images/cat/maya/IMG_6283.jpeg',
+      'images/cat/maya/IMG_6288.jpeg',
+      'images/cat/maya/IMG_6291.jpeg'
     ]
   }
 ];
