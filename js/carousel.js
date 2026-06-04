@@ -1,35 +1,13 @@
 const shopCatalog = [
   {
-    name: 'Arc',
-    price: '£125',
-    images: [
-      'images/cat/arc/sq-tabard-re-1.jpg',
-      'images/cat/arc/sq-tabard-re-4.jpg',
-      'images/cat/arc/sq-tabard-re-5.jpg',
-      'images/cat/arc/sq-tabard-re-7.jpg',
-      'images/cat/arc/sq-tabard-re-10.jpg',
-      'images/cat/arc/sq-tabard-re-11.jpg',
-      'images/cat/arc/sq-tabard-re-12.jpg'
-    ]
-  },
-  {
-    name: 'Beatrix',
+    name: 'Trinity',
     price: '£70',
     images: [
-      'images/cat/beatrix/sq-beatrix-mi-1.jpg',
-      'images/cat/beatrix/sq-beatrix-mi-2.jpg',
-      'images/cat/beatrix/sq-beatrix-mi-3.jpg'
-    ]
-  },
-  {
-    name: 'Scarfigan',
-    price: '£75',
-    images: [
-      'images/cat/scarfigan/test02228.jpg',
-      'images/cat/scarfigan/test02234.jpg',
-      'images/cat/scarfigan/test02243.jpg',
-      'images/cat/scarfigan/test02245.jpg',
-      'images/cat/scarfigan/test02252.jpg'
+      'images/cat/trinity/IMG_6155.jpeg',
+      'images/cat/trinity/IMG_6137.jpeg',
+      'images/cat/trinity/IMG_6166.jpeg',
+      'images/cat/trinity/IMG_6171.jpeg',
+      'images/cat/trinity/IMG_6202.jpeg'
     ]
   },
   {
@@ -48,35 +26,57 @@ const shopCatalog = [
     ]
   },
   {
-    name: 'Connor',
-    price: '£65',
+    name: 'Arc',
+    price: '£125',
     images: [
-      'images/cat/connor/sq-connor-bl-1.jpg',
-      'images/cat/connor/sq-connor-bl-2.jpg',
-      'images/cat/connor/sq-connor-bl-3.jpg',
-      'images/cat/connor/sq-connor-bl-4.jpg',
-      'images/cat/connor/sq-connor-bl-7.jpg'
+      'images/cat/arc/sq-tabard-re-1.jpg',
+      'images/cat/arc/sq-tabard-re-4.jpg',
+      'images/cat/arc/sq-tabard-re-5.jpg',
+      'images/cat/arc/sq-tabard-re-7.jpg',
+      'images/cat/arc/sq-tabard-re-10.jpg',
+      'images/cat/arc/sq-tabard-re-11.jpg',
+      'images/cat/arc/sq-tabard-re-12.jpg'
     ]
   },
   {
-    name: 'Trinity',
+    name: 'Beatrix',
     price: '£70',
     images: [
-      'images/cat/trinity/IMG_6137.jpeg',
-      'images/cat/trinity/IMG_6155.jpeg',
-      'images/cat/trinity/IMG_6166.jpeg',
-      'images/cat/trinity/IMG_6171.jpeg',
-      'images/cat/trinity/IMG_6202.jpeg'
+      'images/cat/beatrix/sq-beatrix-mi-2.jpg',
+      'images/cat/beatrix/sq-beatrix-mi-1.jpg',
+      'images/cat/beatrix/sq-beatrix-mi-3.jpg'
+    ]
+  },
+  {
+    name: 'Scarfigan',
+    price: '£75',
+    images: [
+      'images/cat/scarfigan/test02252.jpg',
+      'images/cat/scarfigan/test02228.jpg',
+      'images/cat/scarfigan/test02234.jpg',
+      'images/cat/scarfigan/test02243.jpg',
+      'images/cat/scarfigan/test02245.jpg'
+    ]
+  },
+  {
+    name: 'Connor',
+    price: '£65',
+    images: [
+      'images/cat/connor/sq-connor-bl-3.jpg',
+      'images/cat/connor/sq-connor-bl-1.jpg',
+      'images/cat/connor/sq-connor-bl-2.jpg',
+      'images/cat/connor/sq-connor-bl-4.jpg',
+      'images/cat/connor/sq-connor-bl-7.jpg'
     ]
   },
   {
     name: 'Maya',
     price: '£70',
     images: [
+      'images/cat/maya/IMG_6279.jpeg',
       'images/cat/maya/IMG_6260.jpeg',
       'images/cat/maya/IMG_6273.jpeg',
       'images/cat/maya/IMG_6275.jpeg',
-      'images/cat/maya/IMG_6279.jpeg',
       'images/cat/maya/IMG_6283.jpeg',
       'images/cat/maya/IMG_6288.jpeg',
       'images/cat/maya/IMG_6291.jpeg'
