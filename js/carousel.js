@@ -1,6 +1,7 @@
 const shopCatalog = [
   {
     name: 'Arc',
+    price: '£125',
     images: [
       'images/cat/arc/sq-tabard-re-1.jpg',
       'images/cat/arc/sq-tabard-re-4.jpg',
@@ -13,6 +14,7 @@ const shopCatalog = [
   },
   {
     name: 'Beatrix',
+    price: '£70',
     images: [
       'images/cat/beatrix/sq-beatrix-mi-1.jpg',
       'images/cat/beatrix/sq-beatrix-mi-2.jpg',
@@ -21,6 +23,7 @@ const shopCatalog = [
   },
   {
     name: 'Scarfigan',
+    price: '£75',
     images: [
       'images/cat/scarfigan/test02228.jpg',
       'images/cat/scarfigan/test02234.jpg',
@@ -31,6 +34,7 @@ const shopCatalog = [
   },
   {
     name: 'Cleo',
+    price: '£95',
     images: [
       'images/cat/cleo/IMG_6303.jpeg',
       'images/cat/cleo/IMG_6311.jpeg',
@@ -45,6 +49,7 @@ const shopCatalog = [
   },
   {
     name: 'Connor',
+    price: '£65',
     images: [
       'images/cat/connor/sq-connor-bl-1.jpg',
       'images/cat/connor/sq-connor-bl-2.jpg',
@@ -55,6 +60,7 @@ const shopCatalog = [
   },
   {
     name: 'Trinity',
+    price: '£70',
     images: [
       'images/cat/trinity/IMG_6137.jpeg',
       'images/cat/trinity/IMG_6155.jpeg',
@@ -65,6 +71,7 @@ const shopCatalog = [
   },
   {
     name: 'Maya',
+    price: '£70',
     images: [
       'images/cat/maya/IMG_6260.jpeg',
       'images/cat/maya/IMG_6273.jpeg',
@@ -126,6 +133,7 @@ function renderShopCatalog() {
         </div>
         <div class="product-info">
           <h2 class="product-name">${escapeHtml(product.name)}</h2>
+          ${product.price ? `<p class="product-price">${escapeHtml(product.price)}</p>` : ''}
           <p class="product-looks-label">${product.images.length} ${product.images.length === 1 ? 'photo' : 'photos'}</p>
         </div>
       </article>
