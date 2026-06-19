@@ -134,7 +134,7 @@ function renderShopCatalog() {
         <div class="product-info">
           <h2 class="product-name">${escapeHtml(product.name)}</h2>
           ${product.price ? `<p class="product-price">${escapeHtml(product.price)}</p>` : ''}
-          <p class="product-looks-label">${product.images.length} ${product.images.length === 1 ? 'photo' : 'photos'}</p>
+          <p class="product-looks-label">${product.images.length} ${product.images.length === 1 ? 'look' : 'looks'}</p>
         </div>
       </article>
     `;
